@@ -1,0 +1,105 @@
+.vrlight__container
+    max-width: 1610px
+    width: 100%
+    margin: 0 auto
+    display: grid
+    grid-template-areas: 'vrlight vrlight' 'hardware hardware' 'controls controls' 'techinfo .' 'techinfo order'
+    grid-template-columns: repeat(2, 1fr)
+    grid-auto-rows: 620px
+    gap: 10px
+
+    .vrlight-item
+        display: flex
+        
+
+        &:nth-of-type(1)
+            grid-area: vrlight
+
+        &:nth-of-type(2)
+            grid-area: hardware
+
+        &:nth-of-type(3)
+            grid-area: controls
+
+        .vrlight-img
+            width: 795px
+            height: 620px
+
+        .vrlight__info
+            display: flex
+            align-items: center
+            justify-content: right
+            text-align: right
+            width: 100%
+            margin: 40px
+
+        .hardware__info
+            display: flex
+            flex-direction: column
+            align-items: right
+            justify-content: center
+            text-align: right
+            width: 100%
+            margin: 40px
+
+            h2
+                font-size: 3rem
+                line-height: 2rem
+                padding-bottom: 40px
+
+        .controls__info
+            display: flex
+            flex-direction: column
+            align-items: right
+            justify-content: center
+            text-align: right
+            width: 100%
+            margin: 40px
+
+            h2
+                font-size: 3rem
+                padding-bottom: 40px
+
+    .tech-info
+        background-color: var(--bg-color)
+        color: var(--second-font-color)
+        padding: 40px
+
+        h2
+            font-size: 3rem
+            line-height: 2rem
+            padding-bottom: 40px
+
+        p
+            line-height: 3rem
+            padding-bottom: 120px
+
+    .order
+        background: radial-gradient(191.13% 141.42% at 0% 0%, #3479FF 0%, #B462F4 100%)
+        color: var(--second-font-color)
+        padding: 40px
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        justify-content: space-between
+
+
+        h2
+            font-size: 3rem
+            font-weight: 600
+            line-height: 2rem
+            text-align: right
+
+        .btn
+            width: 363px
+            height: 121px
+            font-size: 2rem
+
+        .controls__info
+
+    .tech-info
+        grid-area: techinfo
+
+
+    .order
+        grid-area: order

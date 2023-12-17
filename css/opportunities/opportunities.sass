@@ -1,0 +1,108 @@
+.opportunities
+
+    h2
+
+    .opportunities__content
+        display: flex
+        height: 750px
+        width: 100%
+
+        .opportunities__radio
+            display: none
+            &:nth-of-type(1)
+                &:checked~.opportunities__labels .opportunities__label
+                    &:nth-of-type(1)
+                        background: var(--card-bg)
+                        color: var(--second-font-color)
+                &:checked ~ .opportunities__images .opportunities__item
+                    &:nth-of-type(1)
+                        height: 100%
+                        flex-grow: 1
+
+            &:nth-of-type(2)
+                &:checked~.opportunities__labels .opportunities__label
+                    &:nth-of-type(2)
+                        background: var(--card-bg)
+                        color: var(--second-font-color)
+                &:checked ~ .opportunities__images .opportunities__item
+                    &:nth-of-type(2)
+                        height: 100%
+                        flex-grow: 1
+
+            &:nth-of-type(3)
+                &:checked~.opportunities__labels .opportunities__label
+                    &:nth-of-type(3)
+                        background: var(--card-bg)
+                        color: var(--second-font-color)
+                &:checked ~ .opportunities__images .opportunities__item
+                    &:nth-of-type(3)
+                        height: 100%
+                        flex-grow: 1
+
+            &:nth-of-type(4)
+                &:checked~.opportunities__labels .opportunities__label
+                    &:nth-of-type(4)
+                        background: var(--card-bg)
+                        color: var(--second-font-color)
+                &:checked ~ .opportunities__images .opportunities__item
+                    &:nth-of-type(4)
+                        height: 100%
+                        flex-grow: 1
+
+        .opportunities__labels
+            height: 100%
+            display: flex
+            flex-direction: column
+            
+
+            .opportunities__label
+                height: 25%
+                user-select: none
+                display: flex
+                align-items: center
+                justify-content: center
+                width: 350px
+                transition: 0.3s
+
+
+        .opportunities__images
+            height: 100%
+            overflow: hidden
+            padding: 0
+            list-style: none
+
+            .opportunities__item
+                height: 0
+                overflow: hidden
+                width: 100%
+                display: flex
+                justify-content: flex-end
+                align-items: flex-end
+                text-align: right
+                color: var(--second-font-color)
+                font-size: 2rem
+                font-weight: 700
+                transition: 0.3s
+
+                span
+                    width: 50%
+                    margin: 0 50px 50px 0
+                    text-align: right
+                    
+
+                &:nth-of-type(1)
+                    background: url(img/opp-img1.png) center/cover no-repeat
+
+                
+                &:nth-of-type(2)
+                    background: url(img/opp-img2.png) center/cover no-repeat
+
+                
+                &:nth-of-type(3)
+                    background: url(img/opp-img3.png) center/cover no-repeat
+
+
+                &:nth-of-type(4)
+                    background: url(img/opp-img4.png) center/cover no-repeat
+
+                

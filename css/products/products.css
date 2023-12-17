@@ -1,0 +1,78 @@
+.product .product__title {
+  margin-bottom: 60px;
+}
+.product .product__content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 420px);
+  gap: 20px;
+  grid-template-areas: "vrl acs market" "vrl vrp vrp";
+}
+.product .product__content .product__vr-light {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px;
+  grid-area: vrl;
+  background: radial-gradient(92.63% 79.19% at 11.85% 31.04%, #B462F4 0%, rgba(255, 255, 255, 0) 100%), url(img/product-1.png) center/cover no-repeat;
+}
+.product .product__content .product__vr-light .product__name {
+  margin-bottom: 85px;
+}
+.product .product__content .product__vr-light .product__btn {
+  margin-top: auto;
+  align-self: flex-end;
+}
+.product .product__content .product__acss {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px;
+  grid-area: acs;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(img/product-3.png) center/cover no-repeat;
+}
+.product .product__content .product__acss .product__btn {
+  margin-top: auto;
+  align-self: flex-end;
+}
+.product .product__content .product__acss .product__name {
+  color: var(--second-font-color);
+}
+.product .product__content .product__market {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px;
+  grid-area: market;
+  background: radial-gradient(98.18% 144.48% at 100% 98.18%, #FF450B 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(61.04% 79.24% at 2.5% 5.83%, #FF450B 0%, rgba(255, 11, 11, 0) 100%), url(img/product-4.png) center/cover no-repeat;
+}
+.product .product__content .product__market .product__name {
+  color: var(--second-font-color);
+  margin-bottom: 30px;
+}
+.product .product__content .product__market .product__text {
+  color: var(--second-font-color);
+}
+.product .product__content .product__market .product__btn {
+  margin-top: auto;
+  align-self: flex-end;
+}
+.product .product__content .product__vr-pro {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 25px;
+  grid-area: vrp;
+  background: radial-gradient(100% 623.79% at 0% 4.85%, #16FFFF 0%, rgba(0, 0, 0, 0) 100%), url(img/product-2.png) center/cover no-repeat;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.product .product__content .product__vr-pro .product__name {
+  color: var(--second-font-color);
+  width: 470px;
+}
+.product .product__content .product__vr-pro .product__text {
+  color: var(--second-font-color);
+  width: 631px;
+}
+.product .product__content .product__vr-pro .product__btn {
+  margin-top: auto;
+  align-self: flex-end;
+}/*# sourceMappingURL=products.css.map */

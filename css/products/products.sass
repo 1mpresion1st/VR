@@ -1,0 +1,90 @@
+.product
+
+    .product__title
+        margin-bottom: 60px
+
+    .product__line
+
+    .product__content
+        margin-top: 40px
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(2, 420px)
+        gap: 20px
+        grid-template-areas: 'vrl acs market' 'vrl vrp vrp'
+
+        .product__vr-light
+            display: flex
+            flex-direction: column
+            padding: 40px 25px
+            grid-area: vrl
+            background: radial-gradient(92.63% 79.19% at 11.85% 31.04%, #B462F4 0%, rgba(255, 255, 255, 0) 100%), url(img/product-1.png) center/cover no-repeat
+
+            .product__name
+                margin-bottom: 85px
+
+            .product__text
+
+            .product__btn
+                margin-top: auto
+                align-self: flex-end
+
+
+        .product__acss
+            display: flex
+            flex-direction: column
+            padding: 40px 25px
+            grid-area: acs
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.80) 100%), url(img/product-3.png) center/cover no-repeat
+
+            .product__btn
+                margin-top: auto
+                align-self: flex-end
+
+            .product__name
+                color: var(--second-font-color)
+
+        .product__market
+            display: flex
+            flex-direction: column
+            padding: 40px 25px
+            grid-area: market
+            background: radial-gradient(98.18% 144.48% at 100% 98.18%, #FF450B 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(61.04% 79.24% at 2.5% 5.83%, #FF450B 0%, rgba(255, 11, 11, 0) 100%), url(img/product-4.png) center/cover no-repeat
+
+            .product__name
+                color: var(--second-font-color)
+                margin-bottom: 30px
+
+            .product__text
+                color: var(--second-font-color)
+
+            .product__btn
+                margin-top: auto
+                align-self: flex-end
+
+        .product__vr-pro
+            display: flex
+            flex-wrap: wrap
+            padding: 40px 25px
+            grid-area: vrp
+            background: radial-gradient(100% 623.79% at 0% 4.85%, #16FFFF 0%, rgba(0, 0, 0, 0) 100%), url(img/product-2.png) center/cover no-repeat
+            justify-content: space-between
+            align-content: space-between
+
+            .product__name
+                color: var(--second-font-color)
+                width: 470px
+
+
+            .product__text
+                color: var(--second-font-color)
+                width: 631px
+
+            
+
+            .product__btn
+                margin-top: auto
+                align-self: flex-end
+
+
+

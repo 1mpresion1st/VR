@@ -1,0 +1,10 @@
+:root {
+  --bg-color: #000;
+  --first-font-color: #000;
+  --second-font-color: #fff;
+  --active-color: #0D6EFD;
+  --card-bg: #222222;
+  --first-gradient: radial-gradient(191.13% 141.42% at -0.00% 0%, #3479FF 0%, #B462F4 100%);
+  --second-gradient: radial-gradient(191.13% 141.42% at -0.00% 0%, #FF450B 0%, #B462F4 100%);
+  --third-gradient: radial-gradient(191.13% 141.42% at -0.00% 0%, #FF8C21 0%, #FFDB5C 100%);
+}/*# sourceMappingURL=var.css.map */

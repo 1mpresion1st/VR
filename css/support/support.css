@@ -1,0 +1,29 @@
+.support-container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.support-container .support__title-container {
+  display: flex;
+  flex-direction: column;
+}
+.support-container .support__title-container .support__title {
+  text-align: right;
+}
+.support-container .support__title-container hr {
+  max-width: 330px;
+  width: 100%;
+  align-self: end;
+  color: var(--first-font-color);
+  height: 3px;
+}
+.support-container .mb-3 .support__label {
+  font-weight: 900;
+}
+.support-container .btn-primary {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  margin-top: 30px;
+}/*# sourceMappingURL=support.css.map */

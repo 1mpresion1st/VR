@@ -1,0 +1,104 @@
+.footer {
+  background: var(--bg-color);
+  color: var(--second-font-color);
+}
+.footer .container .footer__content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 305px);
+  gap: 20px;
+  grid-template-areas: "quest games shop info info" "socials socials socials feedback feedback";
+}
+.footer .container .footer__content p {
+  font-size: 20px;
+}
+.footer .container .footer__content .footer__quest {
+  grid-area: quest;
+}
+.footer .container .footer__content .footer__quest h4 {
+  font-weight: 900;
+}
+.footer .container .footer__content .footer__quest p {
+  margin-top: 20px;
+}
+.footer .container .footer__content .footer__games {
+  grid-area: games;
+}
+.footer .container .footer__content .footer__games h4 {
+  font-weight: 900;
+}
+.footer .container .footer__content .footer__games p {
+  margin-top: 20px;
+}
+.footer .container .footer__content .footer__shop {
+  grid-area: shop;
+}
+.footer .container .footer__content .footer__shop h4 {
+  font-weight: 900;
+}
+.footer .container .footer__content .footer__shop p {
+  margin-top: 20px;
+}
+.footer .container .footer__content .footer__info {
+  grid-area: info;
+}
+.footer .container .footer__content .footer__info h4 {
+  font-weight: 900;
+}
+.footer .container .footer__content .footer__info p {
+  font-size: 40px;
+  text-align: right;
+}
+.footer .container .footer__content .footer__socials {
+  display: flex;
+  grid-area: socials;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-bottom: 2px solid white;
+  padding-bottom: 25px;
+}
+.footer .container .footer__content .footer__socials .socials__img {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .container .footer__content .footer__socials a:nth-of-type(1) {
+  width: 70px;
+  height: 70px;
+}
+.footer .container .footer__content .footer__socials a:nth-of-type(2) {
+  width: 70px;
+  height: 70px;
+}
+.footer .container .footer__content .footer__socials a:nth-of-type(3) {
+  width: 70px;
+  height: 40px;
+}
+.footer .container .footer__content .footer__socials h4 {
+  font-weight: 900;
+}
+.footer .container .footer__content .footer__feedback {
+  grid-area: feedback;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.footer .container .footer__content .footer__feedback h4 {
+  font-weight: 900;
+}
+.footer .container .footer__content .footer__feedback .btn {
+  font-size: 25px;
+  font-weight: 400;
+  background: var(--second-font-color);
+  width: 400px;
+  height: 80px;
+  transition: 0.3s;
+}
+.footer .container .footer__content .footer__feedback .btn:hover {
+  color: #ff00ee;
+}/*# sourceMappingURL=footer.css.map */
