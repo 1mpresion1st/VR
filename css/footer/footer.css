@@ -98,6 +98,9 @@
   width: 400px;
   height: 80px;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer .container .footer__content .footer__feedback .btn:hover {
   color: #ff00ee;

@@ -2,6 +2,7 @@
     max-width: 1610px
     width: 100%
     margin: 0 auto
+    margin-top: 240px
     display: grid
     grid-template-areas: 'vrlight vrlight' 'hardware hardware' 'controls controls' 'techinfo .' 'techinfo order'
     grid-template-columns: repeat(2, 1fr)
@@ -11,7 +12,6 @@
     .vrlight-item
         display: flex
         
-
         &:nth-of-type(1)
             grid-area: vrlight
 
@@ -75,7 +75,7 @@
             padding-bottom: 120px
 
     .order
-        background: radial-gradient(191.13% 141.42% at 0% 0%, #3479FF 0%, #B462F4 100%)
+        background: var(--first-gradient)
         color: var(--second-font-color)
         padding: 40px
         display: flex
@@ -94,6 +94,9 @@
             width: 363px
             height: 121px
             font-size: 2rem
+            display: flex
+            justify-content: center
+            align-items: center
 
         .controls__info
 

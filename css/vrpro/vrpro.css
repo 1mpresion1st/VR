@@ -1,0 +1,115 @@
+.vrpro {
+  background-color: #2B2A32;
+}
+.vrpro .vrpro__container {
+  max-width: 1610px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 250px;
+  display: grid;
+  grid-template-areas: "vrpro vrpro" "hardware hardware" "controls controls" "techinfo ." "techinfo order";
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 620px;
+  gap: 10px;
+}
+.vrpro .vrpro__container .vrpro-item {
+  display: flex;
+  color: white;
+}
+.vrpro .vrpro__container .vrpro-item:nth-of-type(1) {
+  grid-area: vrpro;
+}
+.vrpro .vrpro__container .vrpro-item:nth-of-type(2) {
+  grid-area: hardware;
+}
+.vrpro .vrpro__container .vrpro-item:nth-of-type(3) {
+  grid-area: controls;
+}
+.vrpro .vrpro__container .vrpro-item .vrpro-img {
+  width: 795px;
+  height: 620px;
+}
+.vrpro .vrpro__container .vrpro-item .vrpro__info {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  width: 100%;
+  margin: 40px;
+}
+.vrpro .vrpro__container .vrpro-item .hardware__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  width: 100%;
+  margin: 40px;
+}
+.vrpro .vrpro__container .vrpro-item .hardware__info p {
+  max-width: 600px;
+}
+.vrpro .vrpro__container .vrpro-item .hardware__info h2 {
+  font-size: 3rem;
+  line-height: 2rem;
+  padding-bottom: 40px;
+}
+.vrpro .vrpro__container .vrpro-item .controls__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  width: 100%;
+  margin: 40px;
+}
+.vrpro .vrpro__container .vrpro-item .controls__info p {
+  max-width: 600px;
+}
+.vrpro .vrpro__container .vrpro-item .controls__info h2 {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+.vrpro .vrpro__container .tech-info {
+  background-color: var(--second-font-color);
+  padding: 40px;
+}
+.vrpro .vrpro__container .tech-info h2 {
+  font-size: 3rem;
+  line-height: 2rem;
+  padding-bottom: 40px;
+}
+.vrpro .vrpro__container .tech-info p {
+  line-height: 3rem;
+  padding-bottom: 120px;
+  font-weight: normal;
+}
+.vrpro .vrpro__container .order {
+  background: var(--second-gradient);
+  color: var(--second-font-color);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.vrpro .vrpro__container .order h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 2rem;
+  text-align: right;
+}
+.vrpro .vrpro__container .order .btn {
+  width: 363px;
+  height: 121px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vrpro .vrpro__container .tech-info {
+  grid-area: techinfo;
+}
+.vrpro .vrpro__container .order {
+  grid-area: order;
+}/*# sourceMappingURL=vrpro.css.map */
